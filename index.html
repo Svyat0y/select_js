@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Custom select</title>
+
+    <!--CSS нативный select-->
+    <link rel="stylesheet" href="css/vanilla-js-select.css">
+    <!--   CSS кастомный -->
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <!--Select vanilla js-->
+    <div class="selectWr">
+        <select id="custom_select">
+            <optgroup label="Real currency">
+                <option value="0" data-srcImg="images/1.png">Dollar</option>
+            </optgroup>
+            <optgroup label="Crypto currency">
+                <option selected value="1" data-srcImg="images/2.png">Bitcoin</option>
+                <option value="2" data-srcImg="images/3.png">Ethereum</option>
+                <option value="3" data-srcImg="images/4.png">Litecoin</option>
+                <option value="4" data-srcImg="images/5.png">Tether</option>
+            </optgroup>
+        </select>
+    </div>
+
+    <!--Select vanilla js-->
+    <script src="js/vanilla-js-select.js"></script>
+
+    <!--кастомный скрипт файл-->
+    <script src="js/main.js"></script>
+
+</div>
+</body>
+</html>
